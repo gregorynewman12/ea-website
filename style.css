@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    left: 0px;
+    top: 0px;
+    border: 2px solid black;
+    border-width: 0 0 2px 0;
+    background-color: black;
+    margin: 0;
+}
+
+#header-image-link,
+#logo {
+    height: 100%;
+}
+
+#logo {
+    filter: invert(100%)
+}
+
+header a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+    text-decoration: none;
+    color: white;
+}
+
+.body-container {
+    display: flex;
+    width: 98vw;
+    margin: 15vh 0 0 0;
+}
+
+/* Contact Section */
+
+#contact-container {
+    display: flex;
+    height: 85vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.post-input-element {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.post-input-element>label {
+    flex: 1 75px;
+    margin-right: 10px;
+}
+
+.post-input-element input,
+.post-input-element textarea {
+    font-size: 18px;
+    padding: 8px;
+    flex: 6 200px;
+}
+
+#contact-submit-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#contact-submit-button:hover {
+    background-color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+
+/* About */
+
+.photo-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.photo-card-container img {
+    align-self: center;
+    max-width: 40vw;
+    max-height: 60vh;
+    margin: 100px 0 100px 0;
+
+}
+
+#ea-en-pic {
+    margin-bottom: 0px;
+}
+
+.photo-card-container h2 {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 5px 5px 5px 5px;
+}
+
+.bio-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.bio-text-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    margin: 50px 0 5px 0;
+}
+
+p {
+    max-width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Photos */
+
+#photo-container {
+    flex-wrap: wrap;
+}
+
+#photo-container h1 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.photo-column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.photo-column img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+/* Watch and Listen */
+
+#watch-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+#watch-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#watch-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 30px 0 10px 0;
+}
+
+iframe {
+    padding-bottom: 40px;
+}
