@@ -142,6 +142,20 @@ p {
 
 /* Photos */
 
+#photo-container {
+    flex-wrap: wrap;
+}
+
+#photo-container h1 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
 .photo-column {
     display: flex;
     flex-direction: column;
