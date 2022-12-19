@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <a href="about.html" class="nav-item">About</a>
+        <a href="watch.html" class="nav-item">Watch and Listen</a>
+        <a href="index.html" id="header-image-link"><img src="logo.jpg" alt="EA logo" id="logo"></a>
+        <a href="photos.html" class="nav-item">Photo Gallery</a>
+        <a href="contact.html" class="nav-item">Contact</a>
+    </header>
+    <main>
+        <div class="body-container" id="contact-container">
+            <h2 id="contact-header">Contact Elisabeth Adkins</h2>
+            <form action="https://formsubmit.co/gregorynewman12@gmail.com" method="POST">
+                <div class="post-input-element">
+                    <label for="contact-input">Contact Email</label>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <input type="hidden" name="_subject" value="New submission!">
+                <div class="post-input-element">
+                    <label for="message-input">Message</label>
+                    <input type="text" name="name" placeholder="Enter a short message" required>
+                </div>
+                <div class="post-input-element">
+                    <input type="submit" name="Submit" id="contact-submit-button">
+                </div>
+                <input type="text" name="_honey" style="display:none">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
