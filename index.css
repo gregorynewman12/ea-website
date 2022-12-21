@@ -10,6 +10,7 @@ main {
 
 #logo {
     height: 30vh;
+    max-height: 20vw;
     align-self: center;
     width: auto;
     margin: 25px 0 25px 0
@@ -40,7 +41,7 @@ main {
 
 .nav-item {
     font-family: 'Poppins', sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 100;
     text-align: center;
     color: black;
