@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.header {
+    font-size: 54px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.happy,
+.birthday {
+    margin: 15px;
+}
+
+#a1 {
+    color: red;
+}
+
+#a2 {
+    color: green;
+}
+
+#a3 {
+    color: blue;
+}
+
+#a4 {
+    color: yellow;
+}
+
+#a5 {
+    color: red;
+}
+
+#a6 {
+    color: green;
+}
+
+#a7 {
+    color: blue;
+}
+
+#a8 {
+    color: yellow;
+}
+
+#a9 {
+    color: red;
+}
+
+#a10 {
+    color: green;
+}
+
+#a11 {
+    color: blue;
+}
+
+#a12 {
+    color: yellow;
+}
+
+#a13 {
+    color: red;
+}
+
+#a14 {
+    color: green;
+}
+
+#a15 {
+    color: blue;
+}
